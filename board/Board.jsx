@@ -82,7 +82,7 @@ export default function Board() {
 
             {/* if the game is over show a reset button */}
             {gameOver && (
-            <button className="reset" onClick={resetGame}>
+            <button className="reset-btn" onClick={resetGame}>
                 Reset Game
             </button>
         )}
